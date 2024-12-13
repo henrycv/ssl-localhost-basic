@@ -1,4 +1,4 @@
-# SSL certificates script
+# SSL certificates Bash script
 
 ## Requirenments
 
