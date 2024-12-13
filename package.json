@@ -1,0 +1,14 @@
+{
+  "name": "TKL",
+  "version": "1.0.0",
+  "description": "TKL SSL",
+  "main": "index.js",
+  "repository": "tkl.dev",
+  "author": "Hen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0"
+  }
+}

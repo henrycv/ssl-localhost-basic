@@ -1,0 +1,14 @@
+services:
+  test-client:
+    container_name: test-front
+    build:
+      context: .
+    ports:
+      - "80:80"
+      - "443:443"
+    working_dir: /app
+    volumes:
+      - ./server.js:/app/server.js
+      - ./package.json:/app/package.json
+      - ./yarn.lock:/app/yarn.lock
+      - ./sslgenerator.sh:/app/sslgenerator.sh
